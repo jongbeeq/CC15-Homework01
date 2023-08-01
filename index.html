@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Kanit', sans-serif;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(18, 17, 73);
+            margin: 0;
+        }
+        main {
+            background-color: rgb(156, 138, 207);
+            width: 1000px;
+            height: 1400px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 5%;
+        }
+        hr {
+            width: 100%;
+            border: black solid 1px;
+            margin: 0;
+        }
+        .header {
+            background-color: salmon ;
+            border-bottom: black solid;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin: 0;
+            gap: 1%;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+        }
+        .middle {
+            /* outline: dashed red; */
+            width: 100%;
+            height: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+        }
+        .bottom {
+            /* outline: dashed red; */
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 10%;
+        }
+        .content {
+            border: solid black; 
+            background-color: white;
+            width: 30%;
+            padding-left: 3%;
+        }
+    </style>
+    <title>Index</title>
+</head>
+
+<body>
+    <main>
+        <div class="header">
+            <a href="index.html">Home</a> |
+            <a href="education.html">Education</a> |
+            <a href="work.html">Work Experience</a> |
+            <a href="contact.html">Contact Me</a> &nbsp;
+        </div>
+        <div class="middle">
+            <div>
+                <h1 style="font-size: 46px ; color: salmon; text-shadow: black -1px 0px, black 1px 0px, black 0px 1px, black 0px -1px;">Titivute Whangsukij</h1>
+                <h2 style="color: white; font-size: 30px;">Full Stack Developer</h2>
+                <img style="background-color: white; border: solid black;" src="./pic/Profile pic.svg" alt="Profile pic" height="200px">
+                <p style="background-color: white; border: solid black; width: 105%; padding: 2%;">Energetic web developer with certificated from Codecamp Thailand (#13). <br>
+                Codecamp is one of the best developer's bootcamp in Thailand. <br>
+                end(React), back-end(Node & Express) and Database(MySQL).</p>
+            </div>
+        </div>
+        <hr>
+        <div class="bottom">
+            <div class="content">
+                <h2>Personal Info</h2>
+                <p>
+                    <b>Location :</b> Bkk, Thailand
+                    <br>
+                    <b>Phone :</b> (66)89-2188970
+                    <br>
+                    <b>E-mail :</b> rtsomeone@gggmail.cc
+                    <br>
+                    <b>Line ID :</b> Jongbeeq
+                </p>
+            </div>
+            <hr style="width: 0%; height: 90%;">  
+            <div class="content">
+                <h2>Skills</h2>
+                <ul>
+                    <li>UX/UI Design (Figma)</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                    <li>Node.JS</li>
+                    <li>MySQL</li>
+                </ul>
+            </div> 
+        </div>
+        <hr>
+    </main>
+</body>
+
+</html>

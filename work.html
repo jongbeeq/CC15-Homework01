@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Kanit', sans-serif;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(18, 17, 73);
+            margin: 0;
+        }
+        main {
+            background-color: rgb(156, 138, 207);
+            width: 1000px;
+            height: 1400px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 5%;
+        }
+        hr {
+            width: 100%;
+            border: black solid 1px;
+            margin: 0;
+        }
+        .header {
+            background-color: salmon ;
+            border-bottom: black solid;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin: 0;
+            gap: 1%;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+        }
+        td {
+            background-color: white;
+        }           
+        table, th, td {
+                border: 2px solid black;
+                border-collapse: collapse;
+        }
+    </style>
+    <title>Work</title>
+</head>
+<body>
+    <main>
+        <div class="header">
+            <a href="index.html">Home</a> |
+            <a href="education.html">Education</a> |
+            <a href="work.html">Work Experience</a> |
+            <a href="contact.html">Contact Me</a> &nbsp;
+        </div>
+        <h1 style="color: white;">Work Experience</h1>
+        <img style="background-color: white; border: solid black;" src="./pic/work pic.svg" alt="Work pic" width="200px">
+        <table style="width: 60%;">
+            <tr style="color: white; text-align: center; background-color: salmon;">
+                <th>Year</th>
+                <th>Job Title</th>
+                <th>Company</th>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>Full Stack</td>
+                <td>XYZ</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Frontend Developer</td>
+                <td>DEF</td>
+            </tr>
+            <tr>
+                <td>2019</td>
+                <td>Junior Backend</td>
+                <td>ABC</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
